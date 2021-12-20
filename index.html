@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>College Entrance Exam for Football Players</title>
+</head>
+
+<body>
+    <header class="row bg-dark sticky-top">
+        <h1>College Entrance Exam for Football Players</h1>
+    </header>
+    <main class="row ">
+        <section id='begin' class='container bg-light hide'>
+            <h2>Start Quiz</h2>
+            <p>Read the question and then choose the correct answer from the following five! Good luck!</p>
+        </section>
+        <section id='quiz' class="container bg-light">
+            <h2 id='' class="text-center">Questions</h2>
+            <div id='buttons' class='container bg-light'>
+                <button id='answer' class='btn'>Answer</button>
+            </div>   
+        </section>
+        <section id='end'class='container bg-light hide'>
+            <h2>Submit Highscores</h2>
+            <div class="input-group mb-3">
+                <label for >Submit your initials here:</label>
+                <input id='intials' type="text" class="form-control" aria-label="Sizing example input">
+              </div>
+        </section>
+    </main>
+
+    <footer class="flex-column w-100 p-3 text-center bg-dark text-light sticky-bottom d-flex">
+        &copy;2021 by Shitzengiguls
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
