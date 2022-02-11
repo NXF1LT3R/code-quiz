@@ -7,6 +7,7 @@ Quiz for college/university enrollees in the football athletics department.
 * HTML
 * CSS
 * JS
+* JQuery
 * Bootstrap
 
 ## Contribution
